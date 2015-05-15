@@ -61,6 +61,20 @@ public class Main extends Activity implements OnClickListener {
                 intent = new Intent(getApplicationContext(), TerminalActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.btnTurnOn:
+                this.turnBluetoothOn();
+                break;
+            case R.id.btnTurnOff:
+                this.turnBluetoothOff();
+                break;
         }
+    }
+
+    public void turnBluetoothOn(){
+
+    }
+
+    public void turnBluetoothOff(){
+
     }
 }
